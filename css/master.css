@@ -144,3 +144,51 @@
   border: 2px solid white;
   border-width: medium;
 }
+.products-block{
+  background-color: var(--container-odd-bg-color);
+  margin: 10% 10% 1% 10%;
+  border-radius: 2rem;
+  padding: 2rem;
+  /* display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; */
+}
+.products-block-heading{
+  font-size: 2rem;
+  color: var(--container-odd-text-color);
+  font-family: 'Quicksand', sans-serif;
+  text-transform: uppercase;
+  /* line height: 2rem; */
+}
+.products-row{
+  display: flex;
+  flex-wrap: wrap;
+  /* margin: auto; */
+}
+/* using 3 columns->33%, for 4->25% */
+.product-col{
+  flex: 25%;
+  padding: auto;
+}
+/* @media screen and (max-width: 800px) {
+  .product-col {
+    width: 50%;
+  }
+} */
+@media screen and (max-width: 800px) {
+  .product-col {
+    flex: 100%;
+  }
+}
+.product-1{
+  position: relative;
+  padding: 1rem;
+  /* height: 50vh; */
+}
+.text-over-image{
+  position: absolute;
+  top: 1rem;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2rem;
+  color: white;
+}

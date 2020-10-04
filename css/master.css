@@ -1,4 +1,4 @@
- /* @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap'); */
+ @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
 /* :root{
   --main-bg-color: #3F4B56;
@@ -212,4 +212,48 @@
   font-family: 'Quicksand', sans-serif;
   font-size: calc(18px + 6 * ((100vw - 320px) / 680));
   color: white;
+}
+
+.contact_us{
+  background-color: var(--container-even-bg-color);
+  min-height: 80vh;
+  margin: 4vw 5vw;
+  border-radius: 2rem;
+  padding: 2rem;
+}
+.address-header{
+  font-family: 'Quicksand', sans-serif;
+  font-size: calc(18px + 10 * ((100vw - 320px) / 680));
+  color: white;
+  text-decoration: underline;
+  text-align: center;
+}
+.address{
+  font-family: 'Quicksand', sans-serif;
+  font-size: calc(18px + 6 * ((100vw - 320px) / 680));
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.email{
+  padding: auto;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.email-header{
+  padding: 10px;
+  color: white;
+}
+.btn{
+  text-decoration: none;
+  color: white;
+  border-radius: 2rem;
+  padding: 20px;
+  background-color: red;
+}
+.btn:hover{
+  background-color: blue;
 }

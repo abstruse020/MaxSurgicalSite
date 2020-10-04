@@ -67,7 +67,7 @@
   background-color: var(--container-even-bg-color);
   margin: 4vw 5vw;
   border-radius: 30px;
-  padding: 3vw;
+  padding: 30px;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -86,8 +86,10 @@
   color: var(--container-even-text-color);
 }
 .block-2-image{
-  background-image: url("../images/surgery_knife.jpg");
+  background-image: url("../images/bg_sanitizer_mask_etc.resized.jpg");
   background-size: cover;
+  background-repeat: space;
+  background-position: center;
   flex-grow: 1;
   flex-basis: 60%;
   min-width: 30vw;
@@ -121,8 +123,10 @@
   color: var(--container-odd-text-color);
 }
 .block-3-image{
-  background-image: url("../images/surgery_knife.jpg");
+  background-image: url("../images/bg_bottles.jpg");
   background-size: cover;
+  background-repeat: space;
+  background-position: center;
   flex-grow: 1;
   flex-basis: 60%;
   min-width: 30vw;
@@ -155,7 +159,7 @@
   color: var(--container-even-text-color);
 }
 .block-4-image{
-  background-image: url("../images/surgery_knife.jpg");
+  background-image: url("../images/bg_sanitizer.jpg");
   background-size: cover;
   flex-grow: 1;
   flex-basis: 60%;
@@ -216,7 +220,7 @@
 
 .contact_us{
   background-color: var(--container-even-bg-color);
-  min-height: 80vh;
+  /* min-height: 80vh; */
   margin: 4vw 5vw;
   border-radius: 2rem;
   padding: 2rem;

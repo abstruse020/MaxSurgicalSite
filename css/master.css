@@ -1,4 +1,4 @@
- @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+ /* @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap'); */
 /* color scheme 1 */
 /* :root{
   --main-bg-color: #3F4B56;
@@ -196,7 +196,7 @@
 }
 /* using 3 columns->33%, for 4->25% */
 .product-col{
-  flex: 33%;
+  flex: 30%;
   padding: auto;
 }
 /* @media screen and (max-width: 800px) {
@@ -214,6 +214,9 @@
   padding: 1rem;
   /* height: 50vh; */
 }
+.img-fill{
+  min-width: 80%;
+}
 .text-over-image{
   position: absolute;
   top: 1rem;
@@ -222,6 +225,7 @@
   color: white;
   background-color: gray;
   opacity: 0.8;
+  cursor: default;
 }
 .manufacture-block{
   background-color: var(--container-even-bg-color);
@@ -250,6 +254,7 @@
   text-decoration: underline;
   text-align: center;
   text-decoration-style: dotted;
+  cursor: default;
 }
 .address{
   font-family: 'Quicksand', sans-serif;
@@ -271,7 +276,9 @@
   color: white;
   text-decoration: underline;
   text-decoration-style: dotted;
+  cursor: default;
 }
+
 .btn{
   text-decoration: none;
   color: white;

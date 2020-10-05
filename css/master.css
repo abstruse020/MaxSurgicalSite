@@ -86,7 +86,7 @@
   color: var(--container-even-text-color);
 }
 .block-2-image{
-  background-image: url("../images/bg_sanitizer_mask_etc.resized.jpg");
+  background-image: url("../images/bg_sanitizer.jpg");
   background-size: cover;
   background-repeat: space;
   background-position: center;
@@ -159,8 +159,10 @@
   color: var(--container-even-text-color);
 }
 .block-4-image{
-  background-image: url("../images/bg_sanitizer.jpg");
+  background-image: url("../images/bg_sanitizer_mask_etc.resized.jpg");
   background-size: cover;
+  background-repeat: space;
+  background-position: center;
   flex-grow: 1;
   flex-basis: 60%;
   min-width: 30vw;
@@ -216,6 +218,8 @@
   font-family: 'Quicksand', sans-serif;
   font-size: calc(18px + 6 * ((100vw - 320px) / 680));
   color: white;
+  background-color: gray;
+  opacity: 0.8;
 }
 
 .contact_us{
@@ -231,6 +235,7 @@
   color: white;
   text-decoration: underline;
   text-align: center;
+  text-decoration-style: dotted;
 }
 .address{
   font-family: 'Quicksand', sans-serif;
@@ -250,6 +255,8 @@
 .email-header{
   padding: 10px;
   color: white;
+  text-decoration: underline;
+  text-decoration-style: dotted;
 }
 .btn{
   text-decoration: none;
@@ -257,6 +264,9 @@
   border-radius: 2rem;
   padding: 20px;
   background-color: red;
+}
+.btn:active{
+  background-color: blue;
 }
 .btn:hover{
   background-color: blue;

@@ -1,5 +1,5 @@
  @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
-
+/* color scheme 1 */
 /* :root{
   --main-bg-color: #3F4B56;
   --container-odd-bg-color: #132332;
@@ -7,6 +7,7 @@
   --container-even-bg-color: #16213e;
   --container-even-text-color: #ECECEF;
 } */
+/* color scheme 2 */
 /* light punchy color */
 /* :root{
   --main-bg-color: #f2a365;
@@ -15,6 +16,7 @@
   --container-even-bg-color: #543864;
   --container-even-text-color: #ececec;
 } */
+/* color scheme 3 */
 /* light blue */
 :root{
   --main-bg-color: #bbe1fa;
@@ -52,7 +54,7 @@
 }
 .name-header-2{
   font-size: calc(16px + 10 * ((100vw - 320px) / 680));
-  margin-bottom: 30px;
+  margin-bottom: 0px;
 }
 .information{
   text-align: center;
@@ -202,7 +204,7 @@
     width: 50%;
   }
 } */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 700px) {
   .product-col {
     flex: 100%;
   }
@@ -221,9 +223,21 @@
   background-color: gray;
   opacity: 0.8;
 }
+.manufacture-block{
+  background-color: var(--container-even-bg-color);
+  margin: 4vw 5vw;
+  border-radius: 2rem;
+  padding: 2rem;
+}
+.manufacture-heading{
+  font-size: calc(18px + 10 * ((100vw - 320px) / 680));
+  color: var(--container-odd-text-color);
+  font-family: 'Quicksand', sans-serif;
+  text-transform: uppercase;
+}
 
 .contact_us{
-  background-color: var(--container-even-bg-color);
+  background-color: var(--container-odd-bg-color);
   /* min-height: 80vh; */
   margin: 4vw 5vw;
   border-radius: 2rem;
